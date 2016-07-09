@@ -1,1 +1,13 @@
-<h1>Coffee Everywhere!</h1>
+<style>
+   body {
+     background: url(<%= image_url("coffee-cup-mug-cafe.jpg") %>) no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+</style>
+<div class="offheaderhome">
+<h1>Coffee Time!</h1>
+ <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
